@@ -1,3 +1,9 @@
+buteo-syncfw-qml (0.2+gemian) buster; urgency=medium
+
+  * gemian import
+
+ -- Davide Guidi <davide@planetcom.co.uk>  Tue, 27 Oct 2020 09:40:15 +0000
+
 buteo-syncfw-qml (0.2+ubports1) xenial; urgency=medium
 
   * No change rebuild for ubports xenial repo
