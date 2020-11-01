@@ -28,7 +28,6 @@ class ButeoSyncFW : public QObject, public QQmlParserStatus
     Q_PROPERTY(bool syncing READ syncing NOTIFY syncStatusChanged)
     Q_PROPERTY(int profilesCount READ profilesCount NOTIFY profilesChanged)
     Q_PROPERTY(QStringList visibleSyncProfiles READ visibleSyncProfiles NOTIFY profilesChanged)
-    Q_PROPERTY(bool serviceAvailable READ serviceAvailable NOTIFY serviceAvailableChanged)
 
 public:
     ButeoSyncFW(QObject *parent = 0);
@@ -36,7 +35,6 @@ public:
     bool syncing() const;
     QStringList visibleSyncProfiles() const;
     int profilesCount() const;
-    bool serviceAvailable() const;
 
     // QQmlParserStatus
     void classBegin();
@@ -120,7 +118,6 @@ signals:
      */
     void syncStatusChanged();
     void profilesChanged();
-    void serviceAvailableChanged();
 
 public slots:
     /*!

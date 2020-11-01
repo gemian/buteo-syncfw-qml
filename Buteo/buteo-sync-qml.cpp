@@ -51,11 +51,6 @@ int ButeoSyncFW::profilesCount() const
     return profiles().count();
 }
 
-bool ButeoSyncFW::serviceAvailable() const
-{
-    return !m_iface.isNull();
-}
-
 void ButeoSyncFW::classBegin()
 {
     m_serviceWatcher.reset(new QDBusServiceWatcher(BUTEO_DBUS_SERVICE_NAME,
@@ -107,7 +102,6 @@ void ButeoSyncFW::initialize()
     reloadProfiles();
 
     // notify changes on properties
-    emit serviceAvailableChanged();
     emit syncStatusChanged();
 }
 
@@ -196,7 +190,6 @@ void ButeoSyncFW::deinitialize()
     m_iface.reset();
 
     // notify changes on properties
-    emit serviceAvailableChanged();
     emit profilesChanged();
     emit syncStatusChanged();
 }
