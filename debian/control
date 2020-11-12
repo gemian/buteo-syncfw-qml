@@ -11,7 +11,6 @@ Build-Depends: cmake,
                qt5-qmake,
                qtbase5-dev,
                qtdeclarative5-dev,
-               pkg-kde-tools
 Standards-Version: 3.9.5
 Homepage: https://launchpad.net/buteo-syncfw-qml
 # if you don't have have commit access to this branch but would like to upload
