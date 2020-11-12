@@ -8,7 +8,7 @@ Build-Depends: cmake,
                pkg-config,
                qml-module-qttest,
                qtchooser,
-               qt5-default,
+               qt5-qmake,
                qtbase5-dev,
                qtdeclarative5-dev,
 Standards-Version: 3.9.5
