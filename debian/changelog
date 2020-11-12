@@ -1,9 +1,8 @@
-
-buteo-syncfw-qml (0.1+15.10.20151008-gemian) wily; urgency=medium
+buteo-syncfw-qml (0.2+gemian) buster; urgency=medium
 
   * Gemian import
 
- -- Davide Guidi <davide@planetcom.co.uk>  Tue, 27 Oct 2020 18:18:26 +0000
+ -- Davide Guidi <davide@planetcom.co.uk>  Thu, 12 Nov 2020 14:18:26 +0000
 
 buteo-syncfw-qml (0.1+15.10.20151008-0ubuntu1) wily; urgency=medium
 
